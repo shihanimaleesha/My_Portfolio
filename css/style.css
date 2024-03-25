@@ -396,6 +396,31 @@ a:hover {
   }
 }
 
+
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height:auto;
+}
+
+.image-container1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+.image-container1 img {
+  max-width: 100%;
+  height:auto;
+}
+
+
+
 /*======================================
 //--//-->   NAVBAR
 ======================================*/
